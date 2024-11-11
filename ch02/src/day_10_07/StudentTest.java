@@ -16,6 +16,6 @@ public class StudentTest {
 		grade = s.grade;
 		
 		System.out.println("이름: " + name);
-		System.out.println("학년: " + grade);
+		System.out.println("학년: " + grade)	;
 	}
 }

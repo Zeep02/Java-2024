@@ -13,4 +13,18 @@ public class Student extends Person {
         this.name = name;
         this.grade = grade;
     }
+
+    public void study() {
+        System.out.println("시험 공부를 합니다.");
+    }
+
+    public int test() {
+        System.out.println("시험 점수입니다.");
+        return 0;
+    }
+
+    public String getStudInfo() {
+        System.out.println("Student 클래스의 getStudInfo() 메서드입니다.");
+        return "이름: " + name + ", 학년: " + grade;
+    }
 }
